@@ -11,7 +11,6 @@ namespace Orbitz_UI_Test.PageObject
 {
     public class VacationRentals : PageBase
     {
-        private IWebDriver driver;
         #region IWebElements
         By DestinationTextBox = By.Id("VR-destination"); // Destination Textbox
 

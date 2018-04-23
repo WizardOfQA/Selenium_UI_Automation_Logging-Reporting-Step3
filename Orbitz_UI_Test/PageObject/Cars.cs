@@ -11,8 +11,6 @@ namespace Orbitz_UI_Test.PageObject
 {
     public class Cars : PageBase
     {
-        private IWebDriver driver;
-
         #region IWebElements
         public By PickupLocationTbox => By.Id("car-pickup-clp"); // Picking up      
         public By DropoffLocationTbox => By.Id("car-dropoff-clp"); // Dropping Off

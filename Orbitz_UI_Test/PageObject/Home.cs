@@ -10,8 +10,6 @@ namespace Orbitz_UI_Test.PageObject
 {
     public class Home : PageBase
     {
-        private IWebDriver driver;
-
         #region IWebElements
 
         #endregion IWebElements
