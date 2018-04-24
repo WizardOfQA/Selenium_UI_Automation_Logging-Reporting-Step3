@@ -32,6 +32,7 @@ namespace Orbitz_UI_Test.TestScripts
             BaseClass.BaseClass.test.Log(LogStatus.Info, "Filled Out And Sumbmitted For Searching Vacation Rentals");
 
             log.Info("Verifying the Expected & Actual");
+            BaseClass.BaseClass.test.Log(LogStatus.Info, "Verifying the Expected & Actual");
             Assert.AreEqual("Central Park Hotel Search Results | Orbitz", WindowHelper.GetPageTitle());
         }
 
@@ -61,6 +62,7 @@ namespace Orbitz_UI_Test.TestScripts
             BaseClass.BaseClass.test.Log(LogStatus.Info, "Options Are Submitted");
 
             log.Info("Verifying the Expected Phrase are displayed");
+            BaseClass.BaseClass.test.Log(LogStatus.Info, "Verifying the Expected Phrase are displayed");
             Assert.IsTrue(GenericHelper.IsElementPresent(By.XPath("//span[@title='Los Angeles, CA (LAX-Los Angeles Intl.)']")));
         }
 
@@ -76,6 +78,7 @@ namespace Orbitz_UI_Test.TestScripts
             BaseClass.BaseClass.test.Log(LogStatus.Info, "Navigated To Vacation Rentals Page");
 
             log.Info("We are intensionally making the test fail here");
+            BaseClass.BaseClass.test.Log(LogStatus.Info, "We are intensionally making the test fail here");
             Assert.IsTrue(false);
         }
 

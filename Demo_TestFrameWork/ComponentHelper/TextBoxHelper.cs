@@ -12,7 +12,7 @@ namespace Demo_TestFrameWork.ComponentHelper
         private static IWebElement element;
         public static void TypeInTextBox(By locator, string inputText)
         {
-            element = GenericHelper.GetElement(locator);
+            ClearTextBox(locator);
             element.SendKeys(inputText);
         }
 
